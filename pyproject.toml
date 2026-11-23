@@ -1,0 +1,73 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "saverapi-client"
+dynamic = ["version"]
+description = "Official Python SDK for SaverAPI.NET — video downloader API for YouTube (4K, MP3), Instagram, TikTok, Facebook, X, Pinterest and Threads, Telegram bot file_id, Shazam, music search, NSFW scan. Sync, async, CLI."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "SaverAPI.NET", email = "saverapinet@gmail.com" }]
+dependencies = ["requests>=2.25"]
+keywords = [
+  "saverapi", "social media downloader api", "video downloader api", "all in one downloader",
+  "instagram downloader", "instagram reels downloader", "instagram api", "instagram profile api",
+  "tiktok downloader", "tiktok video api", "tiktok no watermark",
+  "youtube downloader", "youtube api python", "youtube video download", "youtube mp3", "youtube to mp3 api", "youtube 4k", "youtube 4k downloader", "youtube downloader python", "telegram file_id", "yt-dlp alternative",
+  "facebook video downloader", "twitter video downloader", "x video downloader",
+  "pinterest downloader", "threads downloader", "snapchat downloader", "vimeo downloader", "soundcloud downloader",
+  "shazam api", "song recognition", "music recognition api", "music search api", "shazam charts",
+  "nsfw scanner", "nsfw detection api",
+  "telegram bot downloader", "telegram bot youtube", "aiogram", "python-telegram-bot", "instagram reels api", "social media api", "async api client", "python sdk", "rest api client",
+]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Framework :: AsyncIO",
+  "Typing :: Typed",
+  "Topic :: Internet :: WWW/HTTP",
+  "Topic :: Multimedia :: Video",
+  "Topic :: Multimedia :: Sound/Audio",
+  "Topic :: Communications :: Chat",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[project.optional-dependencies]
+async = ["httpx>=0.24"]
+
+[project.scripts]
+saverapi = "saverapi.cli:main"
+
+[project.urls]
+Homepage = "https://saverapi.net"
+Documentation = "https://saverapi.net/docs"
+"API catalog" = "https://saverapi.net/all-in-one-downloader-api"
+"YouTube Downloader API" = "https://saverapi.net/youtube-downloader-api"
+"Instagram Downloader API" = "https://saverapi.net/instagram-downloader-api"
+"TikTok Downloader API" = "https://saverapi.net/tiktok-downloader-api"
+"Shazam API" = "https://saverapi.net/shazam-api"
+Tutorials = "https://saverapi.net/blog"
+Pricing = "https://saverapi.net/pricing"
+Changelog = "https://saverapi.net/whats-new"
+Telegram = "https://t.me/SaverAPI"
+
+[tool.setuptools]
+packages = ["saverapi"]
+
+[tool.setuptools.dynamic]
+version = { attr = "saverapi._version.__version__" }
+
+[tool.setuptools.package-data]
+saverapi = ["py.typed"]
