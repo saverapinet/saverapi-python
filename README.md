@@ -615,6 +615,9 @@ Yes: `pip install "saverapi-client[async]"` and use `AsyncSaverAPI` — same met
 
 ## Changelog
 
+**2.0.2**
+- The SDK source is now public on GitHub: [saverapinet/saverapi-python](https://github.com/saverapinet/saverapi-python) — source and issue tracker linked from the package. No code changes.
+
 **2.0.1**
 - Documentation: new **Response reference** — a real JSON sample and key-field table for every method. No code changes.
 

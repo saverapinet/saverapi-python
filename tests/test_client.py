@@ -188,4 +188,4 @@ def test_cli_youtube_telegram(monkeypatch, capsys):
 
 
 def test_version():
-    assert saverapi.__version__ == "2.0.1"
+    assert saverapi.__version__ == "2.0.2"
