@@ -9,6 +9,7 @@ Official client for **[SaverAPI.NET](https://saverapi.net)**: download videos, R
 [![PyPI](https://img.shields.io/pypi/v/saverapi-client.svg?color=6f42c1&label=pypi&logo=pypi&logoColor=white)](https://pypi.org/project/saverapi-client/)
 [![Python](https://img.shields.io/pypi/pyversions/saverapi-client.svg?color=3776ab&logo=python&logoColor=white)](https://pypi.org/project/saverapi-client/)
 [![License](https://img.shields.io/badge/license-MIT-success.svg)](#license)
+[![Tests](https://github.com/saverapinet/saverapi-python/actions/workflows/tests.yml/badge.svg)](https://github.com/saverapinet/saverapi-python/actions/workflows/tests.yml)
 [![Downloads](https://img.shields.io/pypi/dm/saverapi-client.svg?color=0ea5e9&label=downloads)](https://pypi.org/project/saverapi-client/)
 [![Docs](https://img.shields.io/badge/docs-saverapi.net-4f46e5)](https://saverapi.net/docs)
 [![Telegram](https://img.shields.io/badge/telegram-@SaverAPI-26a5e4?logo=telegram&logoColor=white)](https://t.me/SaverAPI)
@@ -602,6 +603,8 @@ Yes: `pip install "saverapi-client[async]"` and use `AsyncSaverAPI` — same met
 - Shazam Song Recognition API: https://saverapi.net/shazam-api
 - Social Media Downloader API: https://saverapi.net/social-media-downloader-api
 - All-in-One Downloader API: https://saverapi.net/all-in-one-downloader-api
+- Source code and issues: https://github.com/saverapinet/saverapi-python
+- Open-source Telegram downloader bot built on this API: https://github.com/saverapinet/saverapi-telegram-bot
 - Tutorials: https://saverapi.net/blog
   - [YouTube downloader API in Python](https://saverapi.net/blog/youtube-downloader-api-python)
   - [Build a Telegram YouTube downloader bot](https://saverapi.net/blog/build-telegram-youtube-downloader-bot)

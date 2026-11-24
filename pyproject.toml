@@ -53,6 +53,8 @@ saverapi = "saverapi.cli:main"
 [project.urls]
 Homepage = "https://saverapi.net"
 Documentation = "https://saverapi.net/docs"
+Source = "https://github.com/saverapinet/saverapi-python"
+Issues = "https://github.com/saverapinet/saverapi-python/issues"
 "API catalog" = "https://saverapi.net/all-in-one-downloader-api"
 "YouTube Downloader API" = "https://saverapi.net/youtube-downloader-api"
 "Instagram Downloader API" = "https://saverapi.net/instagram-downloader-api"
