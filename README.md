@@ -604,6 +604,7 @@ Yes: `pip install "saverapi-client[async]"` and use `AsyncSaverAPI` — same met
 - Social Media Downloader API: https://saverapi.net/social-media-downloader-api
 - All-in-One Downloader API: https://saverapi.net/all-in-one-downloader-api
 - Source code and issues: https://github.com/saverapinet/saverapi-python
+- Node.js / TypeScript SDK: https://www.npmjs.com/package/saverapi ([source](https://github.com/saverapinet/saverapi-node))
 - Open-source Telegram downloader bot built on this API: https://github.com/saverapinet/saverapi-telegram-bot
 - Tutorials: https://saverapi.net/blog
   - [YouTube downloader API in Python](https://saverapi.net/blog/youtube-downloader-api-python)
